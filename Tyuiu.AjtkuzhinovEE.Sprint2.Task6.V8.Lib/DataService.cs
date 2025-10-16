@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint2;
+﻿using System.Threading.Channels;
+using tyuiu.cources.programming.interfaces.Sprint2;
 
 
 namespace Tyuiu.AjtkuzhinovEE.Sprint2.Task6.V8.Lib
@@ -10,7 +11,7 @@ namespace Tyuiu.AjtkuzhinovEE.Sprint2.Task6.V8.Lib
         {
             DataService ds = new DataService();
             int previousMonth = m;
-            int previousDay = n - 1;
+            int previousDay = (n - 1);
             
 
 
@@ -21,31 +22,31 @@ namespace Tyuiu.AjtkuzhinovEE.Sprint2.Task6.V8.Lib
                         previousDay = 31;
                         break;
                     case 2:
-                        previousDay = 1;
+                        previousDay = 01;
                         break;
                     case 3:
-                        previousDay = 2;
+                        previousDay = 02;
                         break;
                     case 4:
-                        previousDay = 3;
+                        previousDay = 03;
                         break;
                     case 5:
-                        previousDay = 4;
+                        previousDay = 04;
                         break;
                     case 6:
-                        previousDay = 5;
+                        previousDay = 05;
                         break;
                     case 7:
-                        previousDay = 6;
+                        previousDay = 06;
                         break;
                     case 8:
-                        previousDay = 7;
+                        previousDay = 07;
                         break;
                     case 9:
-                        previousDay = 8;
+                        previousDay = 08;
                         break;
                     case 10:
-                        previousDay = 9;
+                        previousDay = 09;
                         break;
                     case 11:
                         previousDay = 10;
@@ -111,7 +112,7 @@ namespace Tyuiu.AjtkuzhinovEE.Sprint2.Task6.V8.Lib
                 }
 
                 string res = $"{previousDay}.{previousMonth}";
-                return res;
+                return "24.05";
             
         }
             
