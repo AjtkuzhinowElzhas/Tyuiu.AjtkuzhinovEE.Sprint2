@@ -9,9 +9,9 @@ namespace Tyuiu.AjtkuzhinovEE.Sprint2.Task6.V8.Test
         public void ValidFindFindDateOfPreviousDay()
         {
             DataService ds = new DataService();
-            int n = 13;
+            int n = 25;
 
-            Assert.AreEqual("12.11", ds.FindDateOfPreviousDay(n, 1));
+            Assert.AreEqual("24.05", ds.FindDateOfPreviousDay(n, 1));
 
             
 
