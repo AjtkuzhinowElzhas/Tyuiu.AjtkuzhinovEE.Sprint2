@@ -14,6 +14,7 @@ namespace Tyuiu.AjtkuzhinovEE.Sprint2.Task3.V6.Test
             double wait = 15;
             Assert.AreEqual(wait, res);
         }
+
         [TestMethod]
         public void ValidCondition2()
         {
@@ -23,8 +24,6 @@ namespace Tyuiu.AjtkuzhinovEE.Sprint2.Task3.V6.Test
             double wait = 0.75;
             Assert.AreEqual(wait, res);
         }
-
-
 
         [TestMethod]
         public void ValidCondition3()
